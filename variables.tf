@@ -29,3 +29,7 @@ variable "private_subnet_cidrs" {
 variable "databse_subnet_cidrs" {
   default = ["13.12.21.0/24","13.12.22.0/24"]
 }
+
+variable "is_peering_required" {
+    default = true
+}
